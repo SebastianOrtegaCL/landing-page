@@ -1,3 +1,4 @@
+
 * {
     outline: 2px solid red;
 }
@@ -8,6 +9,7 @@ body {
     flex-direction: column;
     margin: 0;
 }
+
 
 .container {
     display: flex;
@@ -21,7 +23,7 @@ body {
     align-items: center;
     color: #f9faf8;
     font-size: 24px;
-    margin-left: 180px;
+    margin-left: 100px;
     padding-left: 0;
 
 }
@@ -32,7 +34,7 @@ body {
     list-style-type: none;
     font-size: 14px;
     padding-left: 0;
-    margin-right: 220px;
+    margin-right: 120px;
 }
 
 li {
@@ -46,3 +48,50 @@ li {
 a {
     text-decoration: none;
 }
+
+/* Hero style*/
+ .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #1F2937;
+
+ }
+
+
+ .hero, h1 {
+     margin-top: 0;
+     margin-bottom: 0;
+     font-size: 48px;
+     color: #f9faf8;
+ }
+
+ .hero, p {font-size: 18px; color: #E5E7EB;}
+ .hero__text {
+     display: flex;
+     padding-right: 100px;
+     flex-direction: column;
+     max-width: 400px;
+ }
+
+ .hero__image {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+.hero__image img {
+    max-width: 400px;
+    border-radius: 5px;
+ }
+
+ /* Button hero*/
+
+ .button_hero {
+     background-color: #3882f6;
+     border-radius: 50px;
+     align-items: center;
+     cursor: pointer;
+     display: inline-block;
+ }
