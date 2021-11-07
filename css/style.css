@@ -32,13 +32,13 @@ body {
     display: flex;
     align-items: center;
     list-style-type: none;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 0;
     margin-right: 120px;
 }
 
 li {
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 .right-links, a {
@@ -54,9 +54,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px;
     background-color: #1F2937;
-
+    gap: 20%;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 170px;
+    padding-left: 60px;
  }
 
 
@@ -70,7 +73,6 @@ a {
  .hero, p {font-size: 18px; color: #E5E7EB;}
  .hero__text {
      display: flex;
-     padding-right: 100px;
      flex-direction: column;
      max-width: 400px;
  }
@@ -91,7 +93,15 @@ a {
  .button_hero {
      background-color: #3882f6;
      border-radius: 50px;
-     align-items: center;
      cursor: pointer;
      display: inline-block;
+     border: 0;
+     color: #E5E7EB;
+     font-size: 14px;
+     padding: 0.875rem 2.1875rem;
+     overflow: hidden;
+     font-size: 0.875rem;
+     font-weight: 400;
+     text-align: center;
+     width: 20%;
  }
