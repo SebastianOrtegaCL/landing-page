@@ -1,13 +1,19 @@
 
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+
 * {
     outline: 2px solid red;
 }
 
 body {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 0;
 }
 
 
@@ -105,3 +111,61 @@ a {
      text-align: center;
      width: 20%;
  }
+
+ .hero__text_two {
+     color: #1F2937;
+     text-align: center;
+ }
+
+ .hero__text_two, h2 {
+     font-size: 30px;
+     margin-bottom: 0px;
+ }
+
+
+
+
+
+ .content-card {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin: 0px;
+     padding-top: 40px;
+     padding-right: 100px;
+     padding-left: 100px;
+     padding-bottom: 150px;
+ }
+
+ .card {
+     width: 200px;
+     height: 150px;
+     padding-bottom: 100px;
+     margin-right: 60px;
+ }
+
+ .card:last-child {
+     padding-right: 0px;
+ }
+
+ .card img {
+     max-width: 100%;
+     border: 4px #3882f6 solid;
+     border-radius: 5%;
+ }
+
+ 
+
+ .card .text {
+     border: 0;
+     font-size: 18px;
+     margin-left: 8px;
+ }
+
+ .card .text p {
+     color: #1F2937;
+     text-align: center;
+
+ }
+
+ 
