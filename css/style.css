@@ -4,10 +4,10 @@ html{
     box-sizing: border-box;
 }
 
-
+/* for testing 
 * {
     outline: 2px solid red;
-}
+} */
 
 body {
     display: flex;
@@ -97,19 +97,22 @@ a {
  /* Button hero*/
 
  .button_hero {
-     background-color: #3882f6;
+     display: inline-block;
+     padding: 0.875rem 2.1875rem;
+     border: 0;
      border-radius: 50px;
      cursor: pointer;
-     display: inline-block;
-     border: 0;
-     color: #E5E7EB;
-     font-size: 14px;
-     padding: 0.875rem 2.1875rem;
-     overflow: hidden;
-     font-size: 0.875rem;
      font-weight: 400;
+     font-size: 14px;
+     overflow: hidden;
+     background-color: #3882f6;
+     margin-bottom: 18px;
      text-align: center;
-     width: 20%;
+
+     margin-right: 133px;
+     width: 90px;
+ 
+     
  }
 
  .hero__text_two {
@@ -118,8 +121,9 @@ a {
  }
 
  .hero__text_two, h2 {
-     font-size: 30px;
+     font-size: 36px;
      margin-bottom: 0px;
+     font-weight: bold;
  }
 
 
@@ -168,4 +172,89 @@ a {
 
  }
 
- 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+    padding-left: 400px;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    flex-shrink: 0;
+
+}
+
+.content p {
+    font-size: 36px;
+    font-family: 'light italica';
+    color: #1F2937;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.content h3 {
+    text-align: right;
+    color: #1F2937;
+    text-align: right;
+    margin-left: 0;
+
+}
+
+.content-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 45px 50px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.left h2 {
+    margin-top: 0px;
+    color: #f9faf8;
+}
+
+.left p {
+    margin-bottom: 0px;
+    color: #f9faf8;
+
+}
+
+.left {
+    margin-right: 50px;
+    max-width: 410px;
+
+}
+
+.right .button_hero {
+    border: 3px #E5E7EB solid;
+}
+
+.right a {
+    margin: 0;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 250px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
